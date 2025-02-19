@@ -1,0 +1,146 @@
+.student-dashboard {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #333;
+}
+
+.student-dashboard-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.student-dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #2a7ebf;
+}
+
+.student-dashboard-header span {
+    font-weight: 600;
+}
+
+.student-dashboard-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.student-dashboard-project {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-dashboard-project h2 {
+    color:  #2a7ebf;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    color: #2a7ebf;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #eef4fc;
+    margin-top: 1rem;
+}
+
+.student-dashboard-milestones {
+    margin: 2rem 0;
+    color:  #2a7ebf;
+}
+
+.milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.milestone-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.milestone-card:hover {
+    transform: translateY(-5px);
+}
+
+.status-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.status-tag.completed { background-color: #27ae60; }
+.status-tag.not-submitted { background-color: #e74c3c; color:white; }
+.status-tag.in-progress { background-color: #f1c40f; }
+
+.due-date {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+
+.feedback-section {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.submit-button {
+    background-color: #2a7ebf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #1b6391;
+}
+
+.student-dashboard-activity {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color:  #2a7ebf;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.activity-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.activity-date {
+    color: #999;
+}

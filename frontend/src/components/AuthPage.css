@@ -1,0 +1,128 @@
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eef2f6;
+}
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.role-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.role-btn {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ffffff; 
+    color: #4a4a4a; 
+    border: 1px solid #d1d1d1; 
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.role-btn.active {
+    background-color: #0056b3;
+    color: #ffffff; 
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.auth-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.auth-form label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+    border-color: #0056b3; 
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0056b3; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #004494;
+}
+
+.divider {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.github-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+    background-color: #444; 
+}
+
+.github-btn .github-icon {
+    margin-right: 0.5rem;
+}
+
+.toggle-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.toggle-link span {
+    color: #0056b3;
+    cursor: pointer;
+    font-weight: bold;
+}

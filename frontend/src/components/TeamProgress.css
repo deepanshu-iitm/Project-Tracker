@@ -1,0 +1,203 @@
+.team-progress-container {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.team-progress-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-progress-header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.github-link {
+    font-size: 1.1rem;
+    color: #4a90e2;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: #357ABD;
+}
+
+.team-section {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-section h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.team-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.team-list span{
+    color:#333
+}
+
+.milestone-section {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.milestone-section h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+}
+
+.milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.milestone-card {
+    padding: 1.2rem;
+    border-radius: 8px;
+    background-color: #e9f3fb;
+    border-left: 6px solid #4a90e2;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.milestone-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.milestone-card h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.milestone-details {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.completed-icon {
+    color: #4a90e2;
+}
+
+.due-icon {
+    color: #ff8c00;
+}
+
+.not-submitted {
+    color: #dc3545;
+}
+
+.milestone-card.in-progress {
+    border-left: 6px solid #ffcc00;
+    background-color: #fff8e1; 
+    color: #856404; 
+}
+
+.in-progress-icon {
+    color: #ffcc00;
+    margin-right: 0.4rem;
+}
+
+
+.feedback-button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.feedback-button:hover {
+    background-color: #357ABD;
+}
+
+.github-activity-section {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.github-activity-section h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+}
+
+.github-activity-list {
+    list-style: none;
+    padding: 0;
+}
+
+.activity-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.activity-details {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.activity-icon {
+    font-size: 1.2rem;
+    color: #4a90e2;
+}
+
+.activity-description {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+.activity-branch {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.activity-date {
+    font-size: 0.85rem;
+    color: #888;
+}
